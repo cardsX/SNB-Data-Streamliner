@@ -16,11 +16,14 @@ The SNB provides high-quality economic data, but navigating its hierarchical "da
 ```text
 snb-data-streamliner/
 ├── src/                # Source code
-│   ├── main.py         # Entry point
-│   └── extractor.py    # Core logic for data parsing
+│   ├── __init__.py     # Module declaration
+│   ├── __main__.py     # Entry point
+│   └── extractor.py    # Core logic for data parsing (module)
 ├── data/               # Local storage for outputs (git-ignored)
+├── pyproject.toml      # Project's configuration
 ├── requirements.txt    # Python dependencies
-└── LICENSE             # MIT License
+├── LICENSE             # MIT License
+└── README.md           # This file
 ```
 
 ## 🛠️ Tech Stack
