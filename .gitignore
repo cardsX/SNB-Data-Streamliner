@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Data & Logs
+data/
+logs/
+*.csv
+*.json
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
