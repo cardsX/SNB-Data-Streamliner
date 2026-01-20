@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snb-data-streamliner"
+version = "1.0.0"
+description = "Automated CLI tool to extract and structure Swiss National Bank (SNB) data cubes."
+readme = "README.md"
+authors = [
+  { name="cardsX" }
+]
+license = { text="MIT" }
+keywords = ["snb", "finance", "data-extraction", "python", "etl"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial",
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.28.0",
+    "pandas>=1.5.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/cardsX/SNB-Data-Streamliner/"
+"Bug Tracker" = "https://github.com/cardsX/SNB-Data-Streamliner/issues"
+
+[project.scripts]
+snb-fetch = "src.__main__:main"
