@@ -28,6 +28,10 @@ snb-data-streamliner/
 - **Libraries**: `requests` (API communication), `pandas` (data structuring).
 
 ## 📋 How to Use
-1. Clone the repo: `git clone ...`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the script: `python src/main.py`
+1. Clone the repo: `git clone https://github.com/cardsX/SNB-Data-Streamliner.git`
+2. `cd snb-data-streamliner`
+3. Install dependencies: `pip install -r requirements.txt`
+4. Run the script: `python src/main.py`
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
