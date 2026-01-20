@@ -161,3 +161,8 @@ Disposition:  {response.headers.get('content-disposition')}
 Cookies:      {','.join(response.cookies.keys() if response.cookies else 'None')}
 """.strip('\n')
         self.logger.debug(debug_msg)
+
+
+if __name__ == "__main__":
+    import argparse
+    main()
