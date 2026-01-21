@@ -14,12 +14,15 @@ The SNB provides high-quality economic data, but navigating its hierarchical "da
 
 ## 📂 Project Structure
 ```text
-snb-data-streamliner/
+SNB-Data-Streamliner/
 ├── src/                # Source code
 │   ├── __init__.py     # Module declaration
 │   ├── __main__.py     # Entry point
 │   └── extractor.py    # Core logic for data parsing (module)
+├── metadata/           # Data included in the package (for distribution)
+|   └── cube_list.csv   # CSV-file containing all(?) the cubes' ID and descriptions
 ├── data/               # Local storage for outputs (git-ignored)
+│   └── raw/            # Default location of saved cubes (created automatically at run time if not present)
 ├── pyproject.toml      # Project's configuration
 ├── requirements.txt    # Python dependencies
 ├── LICENSE             # MIT License
@@ -32,7 +35,7 @@ snb-data-streamliner/
 
 ## 📋 How to Use
 1. Clone the repo: `git clone https://github.com/cardsX/SNB-Data-Streamliner.git`
-2. `cd snb-data-streamliner`
+2. `cd SNB-Data-Streamliner`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the script: `python -m src --help`
 
