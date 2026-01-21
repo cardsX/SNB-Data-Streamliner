@@ -31,3 +31,7 @@ dependencies = [
 
 [project.scripts]
 snb-fetch = "src.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+# Include esplicitamente la cartella metadata nel pacchetto finale
+packages = ["src", "metadata"]
