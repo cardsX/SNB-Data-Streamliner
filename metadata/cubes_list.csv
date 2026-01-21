@@ -1,0 +1,236 @@
+cube_id;description
+snbbipo;Balance sheet items of the SNB
+snbnomu;Banknotes and coins in circulation
+snbimfra;Switzerland's reserve assets - Section 1
+snbimfpnd;Switzerland's reserve assets - Section 2
+snbimfcnd;Switzerland's reserve assets - Section 3
+snbimfmi;Switzerland's reserve assets - Section 4
+snbcurrc;SNB foreign currency investments - by currency
+snbcurrp;Foreign currency investments of the SNB - Currency breakdown
+snbcurrinvc;Foreign currency investments of the SNB - Investment categories and breakdown of fixed income assets
+snbgwdzid;Interest rates and threshold factor
+snbgwdchfsgw;Sight deposits in Swiss francs at the SNB
+snbgwdmigirow;Sight deposits of domestic banks averaged over the reporting period
+bamire;Minimum reserves for selected bank categories
+snbfxtr;Foreign exchange transactions
+snbiprogq;SNB conditional inflation forecast
+snbiproga;SNB conditional inflation forecast
+snbband;SNB target range (until July 2019)
+snboffzisa;Official interest rates
+snbkosiq;Business cycle signals
+snbmoba;Monetary base
+snbmonagg;Monetary aggregates M1, M2 and M3
+babilpobgba;Banks' balance sheet items for selected bank categories - annual
+babilpobm;Banks' balance sheet items by currency for selected bank categories - monthly
+babilpoba;Banks' balance sheet items by currency for selected bank categories - annual
+babilfalbm;Banks' balance sheet items by maturity for selected bank categories - monthly
+babilfalba;Banks' balance sheet items by maturity for selected bank categories - annual
+babilpobgua;Banks' balance sheet items for all bank categories - annual
+babilapoum;Banks' assets by currency - monthly
+babilppoum;Banks' liabilities by currency - monthly
+babilapoua;Banks' assets by currency - annual
+babilppoua;Banks' liabilities by currency - annual
+babilfalum;Banks' balance sheet items by maturity - monthly
+babilfalua;Banks' balance sheet items by maturity - annual
+babilsekum;Banks' balance sheet items by domestic sector - monthly
+babillandua;Banks' balance sheet items by selected country - annual
+babilhypfibvua;Domestic mortgage loans by lending group and type of interest - annual
+babilhypisdpua;Domestic mortgage loans by location of property - annual
+babilkunddoua;Cancellable customer deposits by domicile of domestic customer, amount and number - annual
+babilpobgka;Banks' balance sheet items for all bank categories - annual
+babilapoka;Banks' assets by currency - annual
+babilppoka;Banks' liabilities by currency - annual
+babilfalka;Banks' balance sheet items by maturity - annual
+bakredinausbm;Mortgage loans and other loans (utilisation and credit lines) by domestic/foreign for selected bank categories - monthly
+bakredsekbm;Domestic loans (utilisation and credit lines) for selected bank categories - monthly
+bakredsekbrlzm;Domestic loans (utilisation) by industry/economic activity and maturity - monthly
+bakredsekbrm;Domestic loans (utilisation) by industry/economic activity - monthly
+bakredbetgrbm;Domestic loans (utilisation and credit lines) by company size for selected bank categories - monthly
+bahypoakredq;New mortgage loans - number of loans and credit volume
+bahypopfeikrq;New mortgage loans - value of pledged property and borrowers' income
+bahypokebeq;New mortgage loans - indicators on lending value and affordability
+baodfua;Outstanding derivative financial instruments by type of derivative, contract volume and replacement value - annual
+batreuhbm;Banks' fiduciary transactions by currency for selected bank categories - monthly
+batreuhba;Banks' fiduciary transactions by currency for selected bank categories - annual
+batreuhum;Banks' fiduciary transactions by currency - monthly
+batreuhua;Banks' fiduciary transactions by currency - annual
+batreuhlandua;Banks' fiduciary transactions by selected country - annual
+batreuhka;Banks' fiduciary transactions by currency - annual
+baerfrechua;Income statement items - annual
+baerfgewverlua;Appropriation of profit and coverage of losses - annual
+baerfrechka;Income statement items - annual
+bastrbwba;Key figures for selected bank categories - annual
+bastrbwa;Key figures for all bank categories - annual
+bastdagsua;Offices by location (domestic/foreign) - annual
+bastdapersbua;Staff by location (domestic/foreign) and gender - annual
+bastrbwka;Key figures for all bank categories - annual
+bawebewa;Securities holdings in bank custody accounts - by category of security, investment currency and domicile of issuer - monthly
+bawebewja;Securities holdings in bank custody accounts - by category of security, investment currency and domicile of issuer - annual
+bawebesec;Securities holdings in bank custody accounts - by category of security and business sector - monthly
+bawebesecja;Securities holdings in bank custody accounts - by category of security and business sector - annual
+bawebedomsecwa;Securities holdings in bank custody accounts - by business sector, investment currency and domicile of the issuer - monthly
+bawebedomsecwja;Securities holdings in bank custody accounts - by business sector, investment currency and domicile of the issuer - annual
+babasel;Capital data under Basel III (‘all banks' regime) until 2019
+batbtfu;Capital data of systemically important banks and financial groups (TBTF regime) until 2019
+batbtfk;Capital data of systemically important banks and financial groups (TBTF regime) until 2019
+bafovekreeinaus;Claims and liabilities arising from loans and deposits abroad
+zimoma;Money market rates
+zirepo;Repo reference rates
+zikrepro;Published interest rates for new transactions
+ziverzq;Average interest rates of selected balance sheet items - quarterly
+ziverza;Average interest rates of selected balance sheet items - annual
+zipfanda;Mortgage bond issues by rate of interest and average rate of interest
+zikreddet;Interest rates on new loan agreements, by product
+zikredkla;Interest rates on new loan agreements, by product and credit risk category
+zikredlauf;Interest rates on new loan agreements, by product and maturity
+zikredvol;Interest rates on new loan agreements, by product and loan amount
+rendeiduebd;Spot interest rates on Swiss Confederation bonds, euro area government bonds and CHF bond issues for various borrower categories - Day
+rendeiduebm;Spot interest rates on Swiss Confederation bonds, euro area government bonds and CHF bond issues for various borrower categories - Month
+rendoeid;Yields to maturity and residual maturities of individual Swiss Confederation bond issues
+rendoblid;Yields on bond issues - Day
+rendoblim;Yields on bond issues - Month
+rendopar;Nelson-Siegel-Svensson parameters
+devkum;Foreign exchange rates - Month
+devkua;Foreign exchange rates - Year
+devkuhistld;Historical exchange rates for selected euro member countries
+devkuhism;Historical exchange rates for selected euro member countries
+devwkieffid;Effective exchange rate indices - Daily
+devwkieffim;Effective exchange rate indices - Monthly
+devwkieffiq;Effective exchange rate indices - Quarterly
+devwkieffia;Effective exchange rate indices - Annually
+devwkibiid;Bilateral exchange rate indices - Daily
+devwkibiim;Bilateral exchange rate indices - Monthly
+devwkibiiq;Bilateral exchange rate indices - Quarterly
+devwkibiia;Bilateral exchange rate indices - Annually
+devwkilandga;Country weightings - Overall index
+devwkilandea;Country weightings - Euro index
+devlandm;Exchange rate indices (export-weighted against 40 trading partners) - Month
+devlandq;Exchange rate indices (export-weighted against 40 trading partners) - Quarter
+devlanda;Exchange rate indices (export-weighted against 40 trading partners) - Year
+ddumfxir;Foreign exchange transactions and interest rate derivatives: overview
+ddumfxcp;Foreign exchange transactions: turnover by counterparty
+ddumfxcr;Foreign exchange transactions: turnover by currency
+ddumfxd;Foreign exchange transactions: turnover by currency pair, instrument and counterparty
+ddumircp;Interest rate derivatives: turnover by counterparty
+ddumird;Interest rate derivatives: turnover by currency, instrument and counterparty
+capcollch;Swiss open collective capital investments - By fund type
+capcollcat;Swiss open collective capital investments - By investment category
+capcollvf;Swiss open collective capital investments - Claims and liabilities
+capmabond;Capital market borrowing of CHF bond issues
+capmovshare;Capital movements in the shares of domestic companies
+capweums;Securities turnover on the Swiss stock exchange
+capchstocki;Swiss stock indices
+capforeignstocki;Foreign stock indices
+zavesic;Payment transactions via Swiss Interbank Clearing (SIC)
+zavezaka;Number of payment cards and ATMs
+zavezaluba;Payments and cash withdrawals
+zavegelade;E-money - loading and float
+zavkuzawae;Customer payments at banks - Outgoing payments, by currency
+zavkuzewae;Customer payments at banks - Incoming payments, by currency
+zavkuzaart;Customer payments at banks - Outgoing payments, by type of order
+zavkuzeart;Customer payments at banks - Incoming payments, by type of order
+frfidodge;Financial assets and liabilities of the institutional sectors: Overview - Year
+frfidodgeq;Financial assets and liabilities of the institutional sectors: overview - Quarter
+frsekphupooe;Financial assets and liabilities of the households and NPISHs sector - Year
+frsekphupooeq;Financial assets and liabilities of the households and NPISHs sector - Quarter
+frseknfu;Financial assets and liabilities of the non-financial corporations sector - Year
+frseknfuq;Financial assets and liabilities of the non-financial corporations sector - Quarter
+frseksttsek;Financial assets and liabilities of the general government sector and sub-sectors - Year
+frseksttsekq;Financial assets and liabilities of the general government sector and sub-sectors - Quarter
+frsekfutsek;Financial assets and liabilities of the financial corporations sector and sub-sectors - Year
+frsekfutsekq;Financial assets and liabilities of the financial corporations sector and sub-sectors - Quarter
+frsekfutgpa;Financial assets and liabilities of the financial corporations sector, by counterparty - Year
+frsekfutgpaq;Financial assets and liabilities of the financial corporations sector, by counterparty - Quarter
+frekgbgpa;Deposits and loans of commercial banks, by counterparty - Year
+frekgbgpaq;Deposits and loans of commercial banks, by counterparty - Quarter
+sddssbs14710q;IMF SDDS Plus - Sectoral balance sheets
+frsekgevehup;Balance sheet of households - Year
+frsekgevehupq;Balance sheet of households - Quarter
+gdpap;Gross domestic product by type of expenditure - nominal
+gdprpq;Gross domestic product by type of expenditure - real
+gdppn;Gross domestic product by type of production - nominal
+gdppr;Gross domestic product by type of production - real
+gdpgnp;Gross domestic product by type of income and gross national income - nominal
+conretail;Retail trade turnover
+contourismm;Tourism in Switzerland - month
+contourisma;Tourism in Switzerland - year
+conconm;Consumer sentiment - month
+concon;Consumer sentiment - quarter
+indumem;New orders and turnover in the mechanical and electrical engineering industries
+indusect;Statistics on production and turnover in industry, by economic activity
+ambeschkla;Employees, by economic activity
+amerwerb;Employed persons
+amarbma;Labour market
+plkopr;Consumer prices - total
+plkoprart;Consumer prices - type and origin of goods
+plkoprgru;Consumer prices - main categories
+plkoprex;Consumer prices - supplementary classifications
+plkoprinfla;Consumer prices - SNB and SFSO core inflation rates
+plproimpr;Producer and import prices
+pledelropr;Prices of precious metals and raw materials
+plimoinchq;Real estate price indices - total for Switzerland - by quarter
+plimoincha;Real estate price indices - total for Switzerland - by year
+plimoinregq;Real estate price indices - by market area - by quarter
+plimoinreg;Real estate price indices - by market area - Year
+plimoingemq;Real estate price indices - Municipality types - by quarter
+plimoingema;Real estate price indices - Municipality types - Year
+pllohnind;Salary/wage indices
+pubfin;Public finances
+ausshawarm;Foreign trade by goods category
+ausshalam;Foreign trade by country
+bopoverq;Swiss balance of payments - Overview - Quarter
+bopovera;Swiss balance of payments - Overview - Year
+bopcurrq;Swiss balance of payments - Current account - Quarter
+bopcurra;Swiss balance of payments - Current account - Year
+bopmercatq;Swiss balance of payments - Current account merchanting - Goods sales, by goods category - Quarter
+bopmercata;Swiss balance of payments - Current account merchanting - Goods sales, by goods category - Year
+bopmercouq;Swiss balance of payments - Current account merchanting - Goods purchases/sales, by country - Quarter
+bopmercoua;Swiss balance of payments - Current account merchanting - Goods purchases/sales, by country - Year
+bopservq;Swiss balance of payments - Current account services, by country - Quarter
+bopserva;Swiss balance of payments - Current account services, by country - Year
+bopcapbalq;Swiss balance of payments - Financial account - Quarter
+bopcapbala;Swiss balance of payments - Financial account - Year
+auvekomq;Switzerland's international investment position - Overview - Quarter
+auvekoma;Switzerland's international investment position - Overview - Year
+auvercurrq;Switzerland's international investment position - Breakdown by currency - Quarter
+auvercurra;Switzerland's international investment position - Breakdown by currency - Year
+auversecq;Switzerland's international investment position - Breakdown by sector - Quarter
+auverseca;Switzerland's international investment position - Breakdown by sector - Year
+auvezebq;Switzerland's integrated international investment position statement - Quarter
+auvezeba;Switzerland's integrated international investment position statement - Year
+auverdeptq;Switzerland's external debt - Quarter
+auverdebta;Switzerland's external debt - Year
+fdiaustabsa;Swiss direct investment abroad - by type of capital and by economic activity
+fdiaustlanda;Swiss direct investment abroad - by country and country group
+fdiausbabsa;Swiss direct investment abroad - by type of capital and by economic activity
+fdiausbla;Swiss direct investment abroad - by country and country group
+fdiauseabsa;Swiss direct investment abroad - by type of capital and by economic activity
+fdiauselanda;Swiss direct investment abroad - by country and country group
+fdichtabsa;Foreign direct investment in Switzerland	 - by type of capital and by economic activity
+fdichtlanda;Foreign direct investment in Switzerland - by country and country group
+fdichbabsa;Foreign direct investment in Switzerland - by type of capital and by economic activity
+fdichbinvla;Foreign direct investment in Switzerland - by investor level, country and country group
+fdicheabsa;Foreign direct investment in Switzerland - by type of capital and by economic activity
+fdicheinvla;Foreign direct investment in Switzerland - by investor level, country and country group
+fdiassliaufia;Capital transactions - reconciliation with financial account
+fdiassliauipp;Capital stocks - reconciliation with international investment position
+fdiassliauini;Investment income - reconciliation with current account
+opanmuauspbs;Operational data on non-resident subsidiaries of resident companies - by economic activity
+opanmuauspland;Operational data on non-resident subsidiaries of resident companies - by country and country group
+opanmuausumbs;Operational data on non-resident subsidiaries of resident companies - by economic activity
+opanmuausumland;Operational data on non-resident subsidiaries of resident companies - by country and country group
+opanmuausubs;Operational data on non-resident subsidiaries of resident companies - by economic activity
+opanmuausuland;Operational data on non-resident subsidiaries of resident companies - by country and country group
+opanmumkpbs;Operational data on resident parent companies - Number of staff - by source and by economic activity
+iukpaus;Consumer prices abroad
+iualoaus;Unemployment abroad
+iugdphp;Gross domestic product of major trading partners
+iucurracpa;Current accounts of major trading partners
+sddsdcs30m;IMF SDDS Plus - Depository corporations survey
+sddscbs14m;IMF SDDS Plus - Central bank survey
+sddsfsi36912q;IMF SDDS Plus - Financial soundness indicators
+sddsdse14710q;IMF SDDS Plus - Debt securities
+sddsbop36912q;IMF SDDS Plus - Balance of payments
+sddsilv7m;IMF SDDS Plus - Official reserve assets
+sddsiip36912q;IMF SDDS Plus - International investment position
+sddsexd36912q;IMF SDDS Plus - External debt
