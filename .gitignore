@@ -2,15 +2,25 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 venv/
 .venv/
+bin/
+lib/
+dist/
+build/
+*.egg-info/
 
 # Data & Logs
-data/
-logs/
-*.csv
+!metadata/cubes_list.csv
+!metadata/*.json
+data/raw/*
+!data/raw/.gitkeep
 *.json
 *.xlsx
+*.html
+*.log
+debug.png
 
 # OS
 .DS_Store
