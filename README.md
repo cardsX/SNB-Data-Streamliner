@@ -85,19 +85,21 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 
 
 ##### ⚠️ Important Disclaimer: Parameter Configuration
+> [!IMPORTANT]
+> **Handle with care**: The selection and `fromDate`/`toDate` parameters interact directly with the SNB's internal database structure.
+>
+> * **Dimensional Integrity**: The selection string (e.g., `D0,I1`) must follow the exact order and number of dimensions specific to the cube you are requesting. Providing incorrect codes or an invalid sequence will result in an **HTTP 400 Bad Request** or an empty dataset.
+> * **Date Constraints**: Ensure that `fromDate` is not later than `toDate` and that the requested range actually contains data.
+> * **Validation**: This tool does not pre-validate your custom selection strings. It is recommended to verify the correct dimension slugs on the [SNB Data Portal](https://data.snb.ch/) before using them in interactive mode.
 
-    [!CAUTION] Handle with care: The selection and `fromDate`/`toDate` parameters interact directly with the SNB's internal database structure.
-
-    Dimensional Integrity: The selection string (e.g., D0,I1) must follow the exact order and number of dimensions specific to the cube you are requesting. Providing incorrect codes or an invalid sequence will result in an HTTP 400 Bad Request or an empty dataset.
-
-    Date Constraints: Ensure that `fromDate` is not later than `toDate` and that the requested range actually contains data.
-
-    Validation: This tool does not pre-validate your custom selection strings. It is recommended to verify the correct dimension slugs on the SNB Data Portal before using them in interactive mode.
 
 ##### 🛠️ Code Example
 ```
 from src.extractor import SNBDataEngine
 
+
+cube = 'iucurracpa'
+download_folder = "data/raw"
 params = {
     'lang': 'de',
     'fromDate': '2024-05',
@@ -105,11 +107,11 @@ params = {
     'outputFormat': 'nonPivoted',
     'outputNumberFormat': 'fixed'
 }
-download_folder = "data/raw"
-
 with SNBDataEngine(logging_verbosity='v') as snb:
     path = snb.download_to_file(cube, folder=download_folder, **params)
 ```
+This special request is encoded in the transmitted url as `https://data.snb.ch/api/cube/iucurracpa/data/csv/en?outputFormat=nonPivoted&lang=de&fromDate=2024-05&toDate=2024-05&outputNumberFormat=fixed`.
+
 
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
