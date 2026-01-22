@@ -82,6 +82,7 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 | `frequence` | `D`, `M`, `Q`, `A` | Specifies the data granularity (Daily, Monthly, Quarterly, or Annual) if supported by the cube. |
 | `outputNumberFormat` | `fixed`, `formatted` | `fixed` returns raw numbers (e.g., `1000.50`), while `formatted` may include thousands separators. |
 | `selection` | *Dimension Slugs* | Applies a "Slice" to the cube, filtering for specific dimensions (e.g., specific currencies, sectors, or regions). |
+
 <sub>*Table 1: Configuration parameters for the SNB API extraction.*</sub>
 
 
