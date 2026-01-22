@@ -94,7 +94,7 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 
 
 ##### 🛠️ Code Example
-```
+```python
 from src.extractor import SNBDataEngine
 
 
