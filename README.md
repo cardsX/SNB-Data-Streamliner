@@ -82,9 +82,10 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 | `frequence` | `D`, `M`, `Q`, `A` | Specifies the data granularity (Daily, Monthly, Quarterly, or Annual) if supported by the cube. |
 | `outputNumberFormat` | `fixed`, `formatted` | `fixed` returns raw numbers (e.g., `1000.50`), while `formatted` may include thousands separators. |
 | `selection` | *Dimension Slugs* | Applies a "Slice" to the cube, filtering for specific dimensions (e.g., specific currencies, sectors, or regions). |
+<sub>*Table 1: Configuration parameters for the SNB API extraction.*</sub>
 
 
-##### ⚠️ Important Disclaimer: Parameter Configuration
+##### ⚠️ Disclaimer: Parameter Configuration
 > [!IMPORTANT]
 > **Handle with care**: The selection and `fromDate`/`toDate` parameters interact directly with the SNB's internal database structure.
 >
@@ -109,9 +110,17 @@ params = {
 }
 with SNBDataEngine(logging_verbosity='v') as snb:
     path = snb.download_to_file(cube, folder=download_folder, **params)
+    ...
 ```
-This special request is encoded in the transmitted url as `https://data.snb.ch/api/cube/iucurracpa/data/csv/en?outputFormat=nonPivoted&lang=de&fromDate=2024-05&toDate=2024-05&outputNumberFormat=fixed`.
-
+How it works: URL Encoding Your preferences are transformed into a single API request. For instance, a request for German data from May 2024 results in this URL:
+```http
+https://data.snb.ch/api/cube/iucurracpa/data/csv/en
+  ?outputFormat=nonPivoted
+  &lang=de
+  &fromDate=2024-05
+  &toDate=2024-05
+  &outputNumberFormat=fixed
+```
 
 ## 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
