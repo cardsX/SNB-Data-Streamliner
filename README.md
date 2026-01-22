@@ -60,22 +60,11 @@ options:
 
 SNB data portal: 'https://data.snb.ch/en'.
 ```
-## :computer: Example of CLI-usage
 
-### Download a single cube:
-`python -m src <cube1>`
-
-### Download specific data:
-`python -m src <cube1> <cube2> --verbose`
-
-### List all cubes:
-`python -m src --info`
-
-
-## 🐍 Interactive Usage (API)
+### 🐍 Interactive Usage (API)
 For more advanced users, `SNB-Data-Streamliner` can be imported as a Python module. The interactive mode offers greater flexibility, allowing for specific operations during the download process.
 
-### ✨ Advanced Options
+#### ✨ Advanced Options
 1. Column Selection: Load only the specific dimensions you need, reducing memory usage.
 2. Date Filtering: Restrict data extraction to specific time ranges (e.g., last 5 years or a specific quarter).
 3. Custom Post-processing: Apply transformations or cleaning logic before saving the file.
@@ -95,7 +84,8 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 | `selection` | *Dimension Slugs* | Applies a "Slice" to the cube, filtering for specific dimensions (e.g., specific currencies, sectors, or regions). |
 
 
-⚠️ Important Disclaimer: Parameter Configuration
+##### ⚠️ Important Disclaimer: Parameter Configuration
+
     [!CAUTION] Handle with care: The selection and `fromDate`/`toDate` parameters interact directly with the SNB's internal database structure.
 
     Dimensional Integrity: The selection string (e.g., D0,I1) must follow the exact order and number of dimensions specific to the cube you are requesting. Providing incorrect codes or an invalid sequence will result in an HTTP 400 Bad Request or an empty dataset.
@@ -104,7 +94,7 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 
     Validation: This tool does not pre-validate your custom selection strings. It is recommended to verify the correct dimension slugs on the SNB Data Portal before using them in interactive mode.
 
-🛠️ Code Example
+##### 🛠️ Code Example
 ```
 from src.extractor import SNBDataEngine
 
