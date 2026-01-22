@@ -36,13 +36,13 @@ SNB-Data-Streamliner/
 - **CLI**: `Argparse` for the Command Line Interface (CLI).
 
 
-## 📋 How to Use
+## 📋 Installation and How to Use
 1. Clone the repo: `git clone https://github.com/cardsX/SNB-Data-Streamliner.git`
 2. `cd SNB-Data-Streamliner`
-3. Install dependencies: `pip install -r requirements.txt`
+3. Install dependencies: `pip install -r requirements.txt` or `pip install -e .`
 4. Run the script: `python -m src --help`
 
-### :books: Documentation of the Command Line Interface
+## :books: Documentation of the Command Line Interface
 ```bash
 usage: python -m src [-h] [-v] [-s] [--info] [--version] cubes [cubes ...]
 
@@ -61,10 +61,10 @@ options:
 SNB data portal: 'https://data.snb.ch/en'.
 ```
 
-### 🐍 Interactive Usage (API)
+## 🐍 Interactive Usage (API)
 For more advanced users, `SNB-Data-Streamliner` can be imported as a Python module. The interactive mode offers greater flexibility, allowing for specific operations during the download process.
 
-#### ✨ Advanced Options
+### ✨ Advanced Options
 1. Column Selection: Load only the specific dimensions you need, reducing memory usage.
 2. Date Filtering: Restrict data extraction to specific time ranges (e.g., last 5 years or a specific quarter).
 3. Custom Post-processing: Apply transformations or cleaning logic before saving the file.
@@ -85,7 +85,7 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 <sub>*Table 1: Configuration parameters for the SNB API extraction.*</sub>
 
 
-##### ⚠️ Disclaimer: Parameter Configuration
+#### ⚠️ Disclaimer: Parameter Configuration
 > [!IMPORTANT]
 > **Handle with care**: The selection and `fromDate`/`toDate` parameters interact directly with the SNB's internal database structure.
 >
@@ -94,7 +94,7 @@ The advance capabilities are available by the methods `download_to_file`, `downl
 > * **Validation**: This tool does not pre-validate your custom selection strings. It is recommended to verify the correct dimension slugs on the [SNB Data Portal](https://data.snb.ch/) before using them in interactive mode.
 
 
-##### 🛠️ Code Example
+#### 🛠️ Code Example
 ```python
 from src.extractor import SNBDataEngine
 
